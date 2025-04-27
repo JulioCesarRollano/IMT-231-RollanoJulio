@@ -6,7 +6,7 @@ int main(void){
    printf("ingrese un numero: ");
    scanf("%d", &num);
      if (num==-1){
-       printf("Programa finalizado");
+       printf("Programa finalizado.");
        break;
      }
      if (parImpar(num)){
