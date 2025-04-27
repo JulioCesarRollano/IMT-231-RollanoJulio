@@ -4,7 +4,7 @@
 int main(){
   int num;
   while(1){
-   printf("Escribe un numero positivo: ");
+   printf("Escribe un numero positivo:");
    scanf("%d", &num);
     if (num <= 0){
     break;
