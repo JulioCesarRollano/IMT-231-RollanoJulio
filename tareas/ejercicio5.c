@@ -6,7 +6,7 @@ int main(){
   int num2;
 
  while(1){
-  printf("\n----MENÚ------- \n");
+  printf("\n------MENÚ------- \n");
   printf("1. Sumar dos números\n");
   printf("2. Restar dos números\n");
    printf("3. Multiplicar dos números\n");
