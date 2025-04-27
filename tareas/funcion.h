@@ -1,6 +1,6 @@
 #ifndef FUNCIONES_H
 #define FUNCIONES_H
-
+int invertir(int num);
 int parImpar(int(a));
 int sumar(int a, int b);
 int restar(int a, int b);
