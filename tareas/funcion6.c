@@ -7,6 +7,6 @@ void verificarnum(int num1, int num2){
   } else if (num1 < num2){
       printf("El segundo numero (%d) es mayor.\n",num2);
   } else {
-     printf("Ambos numeros son iguales .\n");
+     printf("Ambos numeros son iguales.\n");
   }
 }
