@@ -1,4 +1,3 @@
-// funcion2.c
 #include "funcion2.h"
 
 InfoNumero contar_digitos(int numero) {

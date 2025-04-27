@@ -1,6 +1,5 @@
-// ejercicio2.c
 #include <stdio.h>
-#include "funcion2.h"  // 
+#include "funcion2.h"
 
 int main() {
     int numero;
