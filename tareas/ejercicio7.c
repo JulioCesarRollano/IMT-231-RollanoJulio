@@ -12,7 +12,7 @@
             contador ++;
         }
     }
-   printf("El total de múltiplos de 3 ingresados: %d\n", contador);
+   printf("El total de múltiplos de 3 ingresados son: %d\n", contador);
 
    return 0;
 }
