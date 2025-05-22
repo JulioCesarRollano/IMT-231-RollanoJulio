@@ -1,4 +1,4 @@
-from operaciones.__Init__ import contar, mostrar,secuencia,primos
+from operaciones.__Init__ import contar, mostrar,secuencia,primos,capicua
 while True:
     print("-----MENU DE OPCIONES----")
     print("1. Contar cuántos números entre 1 y N son divisibles por 3")
@@ -28,7 +28,7 @@ while True:
         primos(N)
     elif opcion == 5:
         N=int(input("Ingrese un numero:"))  
-                  
+        capicua(N)          
     else:
         print("Opcion no valida")
         

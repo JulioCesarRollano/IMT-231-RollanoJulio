@@ -4,10 +4,10 @@ def secuencia(N):
     resultado=""
     while contador<N:
         if i%2==0:
-            resultado+=str(-i) + " "
+            resultado+=str(-i) + " ,"
 
         else:
-            resultado+= str(i) + "  "
+            resultado+= str(i) + " , "
         i+=1
         contador+=1        
     print(f"{resultado}")    

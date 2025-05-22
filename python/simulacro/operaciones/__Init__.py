@@ -2,3 +2,4 @@ from .funcion1 import contar
 from.funcion2 import mostrar
 from .funcion3 import secuencia
 from.funcion4 import primos
+from .funcion5 import capicua
