@@ -1,4 +1,4 @@
-from funciones import suma_divisores,num
+from funciones import suma_divisores,primeros_primos
 while True:
     print("-----MENU DE FUNCIONES----")
     print("1.Calcular la suma de todos los divisores de un número " \
@@ -19,4 +19,5 @@ while True:
         N= int(input("Ingrese un numero positivo:")) 
     elif opcion == 3:
         N= int(input("Ingrese un numero positivo:")) 
-        num(N)      
+        primeros_primos(N)
+         
