@@ -1,4 +1,4 @@
-from funciones import suma_divisores,primeros_primos
+from funciones import suma_divisores,primeros_primos,fibonaci_inverso
 while True:
     print("-----MENU DE FUNCIONES----")
     print("1.Calcular la suma de todos los divisores de un número " \
@@ -20,4 +20,7 @@ while True:
     elif opcion == 3:
         N= int(input("Ingrese un numero positivo:")) 
         primeros_primos(N)
-         
+    elif opcion == 4:
+        N= int(input("Ingrese un numero positivo:")) 
+        resultado=fibonaci_inverso(N)
+        print("Los numeros son:",resultado,"")     
